@@ -20,6 +20,25 @@ class QuestionsController < ApplicationController
       render :new
     end
   end
+  def edit
+    @question = Question.find(params[:id])
+  end
+  def update
+    @question = Question.find(params[:id])
+    if @question.update(question_params)
+      flash[:success] = "You have edited the question"
+      redirect_to questions_path
+    else
+      flash[:alert] = "OOOOOOPPPSSS something went wrong"
+      render :edit
+    end
+  end
+  def destroy
+    @question = Question.find(params[:id])
+      @question.destroy
+      flash[:success] = "The question has been destroyed."
+      redirect_to questions_path
+  end
 
   private
     def question_params
