@@ -1,0 +1,14 @@
+<%= render "layouts/errors", object: @question %>
+
+<%= form_for @question do |f| %>
+<%= f.label :title %>
+<%= f.text_field :title, :placeholder => "Would you rather have...", class: 'form-control' %>
+<%= f.label :option_a %>
+<%= f.text_area :option_a, :placeholder => "No Internet", class: 'form-control' %>
+<%= f.label :option_b %>
+<%= f.text_area :option_b, :placeholder => "No Cell Phone", class: 'form-control' %>
+<%= f.label :description %>
+<%= f.text_area :description, :placeholder => "Your cellphone does not have internet access. Your cellphone's plan has voice, SMS, and data only, and does not have wifi. You can still install mobile games on your phone (let's pretend you still have access to the app store).", class: 'form-control' %>
+
+<%= f.submit class: 'btn btn-success' %>
+<% end %>
