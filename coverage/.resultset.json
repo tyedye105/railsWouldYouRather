@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/would_you_rather/spec/models/question_spec.rb": [
+      "/Users/Guest/Desktop/would_you_rather/spec/models/answer_spec.rb": [
         1,
         null,
         1,
@@ -328,8 +328,16 @@
         1,
         null,
         null
+      ],
+      "/Users/Guest/Desktop/would_you_rather/spec/models/question_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        null
       ]
     },
-    "timestamp": 1487611722
+    "timestamp": 1487611840
   }
 }
