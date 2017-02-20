@@ -37,10 +37,11 @@ class QuestionsController < ApplicationController
     end
   end
   def destroy
-    @question = Question.find(params[:id])
-      @question.destroy
-      flash[:success] = "The question has been destroyed."
-      redirect_to questions_path
+    @question = Question.destroy(params[:id])
+    respond_to do |format|
+      format.html { redirect_to questions_url }
+      format.js
+    end
   end
 
   private
