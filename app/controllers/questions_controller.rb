@@ -30,7 +30,10 @@ class QuestionsController < ApplicationController
     @question = Question.find(params[:id])
     if @question.update(question_params)
       flash[:success] = "You have edited the question"
-      redirect_to questions_path
+      respond_to do |format|
+        format.html {redirect_to questions_url}
+        format.js
+      end
     else
       flash[:alert] = "OOOOOOPPPSSS something went wrong"
       render :edit
