@@ -18,7 +18,6 @@ class QuestionsController < ApplicationController
         format.js
       end
       flash[:success] = "Question added!"
-      redirect_to questions_path
     else
       flash[:alert] = "Oops, something went wrong. Please try again."
       render :new
