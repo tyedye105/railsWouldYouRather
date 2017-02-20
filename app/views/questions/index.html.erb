@@ -29,12 +29,14 @@
 </div>
 <%= link_to "Edit", edit_question_path(question) %> |
 <%= link_to "Delete", question_path(question), method: :delete, data: {confirm: "Are you sure?"} %>
-  <% end %>
 </div>
-
+<% end %>
+<p>
+  <%= link_to "add a question", new_question_path, id: "new_link", remote: true %>
+</p>
 
 <% else %>
 <p>
-  Would you rather look at an empty website or add a <%= link_to "question?", new_question_path %>
+  Would you rather look at an empty website or add a <%= link_to "question?", new_question_path, id: "new_link", remote: true  %>
 </p>
 <% end %>

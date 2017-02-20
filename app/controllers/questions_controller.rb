@@ -13,6 +13,10 @@ class QuestionsController < ApplicationController
   def create
     @question = Question.new(question_params)
     if @question.save
+      respond_to do |format|
+        format.html {redirect_to questions_url }
+        format.js
+      end
       flash[:success] = "Question added!"
       redirect_to questions_path
     else
