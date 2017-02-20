@@ -1,12 +1,15 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/would_you_rather/spec/models/answer_spec.rb": [
+      "/Users/Guest/Desktop/would_you_rather/spec/models/question_spec.rb": [
         1,
         null,
         1,
         2,
         2,
+        2,
+        2,
+        null,
         null
       ],
       "/Users/Guest/Desktop/would_you_rather/spec/rails_helper.rb": [
@@ -294,17 +297,25 @@
         1,
         null
       ],
+      "/Users/Guest/Desktop/would_you_rather/app/controllers/questions_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
       "/Users/Guest/Desktop/would_you_rather/app/jobs/application_job.rb": [
         1,
         null
       ],
       "/Users/Guest/Desktop/would_you_rather/app/mailers/application_mailer.rb": [
-        1,
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/would_you_rather/app/models/answer.rb": [
         1,
         1,
         1,
@@ -319,6 +330,8 @@
         1,
         1,
         1,
+        1,
+        1,
         null
       ],
       "/Users/Guest/Desktop/would_you_rather/spec/factories.rb": [
@@ -326,18 +339,13 @@
       ],
       "/Users/Guest/Desktop/would_you_rather/config/routes.rb": [
         1,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/would_you_rather/spec/models/question_spec.rb": [
+        1,
+        1,
         1,
         null,
-        1,
-        2,
-        2,
         null
       ]
     },
-    "timestamp": 1487611840
+    "timestamp": 1487615283
   }
 }
