@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/would_you_rather/spec/models/question_spec.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/spec/models/question_spec.rb": [
         1,
         null,
         1,
@@ -10,83 +10,91 @@
         2,
         2,
         null,
-        null
-      ],
-      "/Users/Guest/Desktop/would_you_rather/spec/rails_helper.rb": [
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
         null,
         null,
         1,
         1,
         1,
         1,
+        null,
         null,
         null
       ],
-      "/Users/Guest/Desktop/would_you_rather/config/environment.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/spec/rails_helper.rb": [
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/railsWouldYouRather/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/would_you_rather/config/application.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/config/application.rb": [
         1,
         null,
         1,
@@ -113,12 +121,12 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/would_you_rather/config/boot.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/Guest/Desktop/would_you_rather/config/environments/test.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/config/environments/test.rb": [
         1,
         null,
         null,
@@ -162,7 +170,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/would_you_rather/config/initializers/application_controller_renderer.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -170,7 +178,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/would_you_rather/config/initializers/assets.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -183,7 +191,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/would_you_rather/config/initializers/backtrace_silencers.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -192,20 +200,20 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/would_you_rather/config/initializers/cookies_serializer.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/config/initializers/cookies_serializer.rb": [
         null,
-        null,
-        null,
-        null,
-        1
-      ],
-      "/Users/Guest/Desktop/would_you_rather/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/would_you_rather/config/initializers/inflections.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/config/initializers/filter_parameter_logging.rb": [
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/Guest/Desktop/railsWouldYouRather/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -223,13 +231,13 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/would_you_rather/config/initializers/mime_types.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/Guest/Desktop/would_you_rather/config/initializers/new_framework_defaults.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/config/initializers/new_framework_defaults.rb": [
         null,
         null,
         null,
@@ -255,12 +263,12 @@
         null,
         1
       ],
-      "/Users/Guest/Desktop/would_you_rather/config/initializers/session_store.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/would_you_rather/config/initializers/wrap_parameters.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -276,30 +284,38 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/would_you_rather/app/channels/application_cable/channel.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/app/channels/application_cable/channel.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/Guest/Desktop/would_you_rather/app/channels/application_cable/connection.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/app/channels/application_cable/connection.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/Guest/Desktop/would_you_rather/app/controllers/application_controller.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/app/controllers/application_controller.rb": [
         1,
         1,
         null
       ],
-      "/Users/Guest/Desktop/would_you_rather/app/helpers/application_helper.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/app/helpers/application_helper.rb": [
         1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        0,
+        null,
         null
       ],
-      "/Users/Guest/Desktop/would_you_rather/app/controllers/questions_controller.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/app/controllers/questions_controller.rb": [
         1,
         1,
+        0,
         null,
         null,
         1,
@@ -309,43 +325,87 @@
         0,
         null,
         null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        0,
+        null,
         null
       ],
-      "/Users/Guest/Desktop/would_you_rather/app/jobs/application_job.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/app/jobs/application_job.rb": [
         1,
         null
       ],
-      "/Users/Guest/Desktop/would_you_rather/app/mailers/application_mailer.rb": [
-        1,
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/would_you_rather/app/models/application_record.rb": [
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/would_you_rather/app/models/question.rb": [
-        1,
-        1,
+      "/Users/Guest/Desktop/railsWouldYouRather/app/mailers/application_mailer.rb": [
         1,
         1,
         1,
         null
       ],
-      "/Users/Guest/Desktop/would_you_rather/spec/factories.rb": [
-
+      "/Users/Guest/Desktop/railsWouldYouRather/app/models/application_record.rb": [
+        1,
+        1,
+        null
       ],
-      "/Users/Guest/Desktop/would_you_rather/config/routes.rb": [
+      "/Users/Guest/Desktop/railsWouldYouRather/app/models/question.rb": [
+        1,
         1,
         1,
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/railsWouldYouRather/spec/factories.rb": [
+
+      ],
+      "/Users/Guest/Desktop/railsWouldYouRather/config/routes.rb": [
+        1,
+        1,
+        1,
         null
       ]
     },
-    "timestamp": 1487615283
+    "timestamp": 1487698689
   }
 }

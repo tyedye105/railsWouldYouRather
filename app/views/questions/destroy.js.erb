@@ -1,1 +1,2 @@
-$('#edit_question_<%= @question.id %>').remove();
+// $('#edit_question_<%= @question.id %>').remove(); the #edit_question id is automatically generated from the form.
+$('#question_link_<%= @question.id %>').remove();// This line targets a custom id refering to the do block on the index.html.erb.

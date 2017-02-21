@@ -15,9 +15,8 @@ class QuestionsController < ApplicationController
     if @question.save
       respond_to do |format|
         format.html {redirect_to questions_url }
-        format.js
+        format.js { flash[:notice] = "You have added a question!  "}
       end
-      flash[:success] = "Question added!"
     else
       flash[:alert] = "Oops, something went wrong. Please try again."
       render :new
