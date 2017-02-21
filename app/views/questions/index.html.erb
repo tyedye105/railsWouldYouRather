@@ -20,18 +20,21 @@
     <div class="panel-body">
   <div class="row">
     <div class="col-md-5">
-      <div class="option_a" id="tally_a">
+      <div class="option_a">
         <%= question.option_a %>
-        <%= render 'selections/form', question: question, choice: 'option_a' %>
+        <%= render "selections/form", question: question, choice: "option_a" %>
       </div>
     </div>
     <div class="col-md-2">
       <p><strong>OR</strong></p>
+      <div class="selection-score-<%=question.id%>" id="results">
+        <%= Selection.where(question_id: question.id).group(:choice).count %>
+      </div>
     </div>
     <div class="col-md-5">
-      <div class="option_b" id="tally_b">
+      <div class="option_b">
         <%= question.option_b %>
-        <%= render 'selections/form', question: question, choice: 'option_b' %>
+        <%= render "selections/form", question: question, choice: "option_b" %>
       </div>
     </div>
   </div>

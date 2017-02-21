@@ -1,0 +1,1 @@
+$(".selection-score-<%= @selection.question.id%>").append($(".selection-score-<%= @selection.question.id%>").html("<%= Selection.where(question_id: @selection.question.id).group(:choice).count%>"));
