@@ -3,7 +3,7 @@ class Question < ActiveRecord::Base
   validates :description, :presence => true
   validates :option_a, :presence => true
   validates :option_b, :presence => true
-
+  has_many :selections
 
   def add_one(tally)
     tally_to_add = tally

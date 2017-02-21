@@ -8,7 +8,9 @@
 <% end %>
 <div id="question_lists" >
 </div>
+<div class="hello">
 
+</div>
 <% if @questions.any? %>
 <% @questions.each do |question|  %>
   <div class="panel panel-info" id="question_link_<%=question.id%>">
@@ -18,13 +20,19 @@
     <div class="panel-body">
   <div class="row">
     <div class="col-md-5">
-      <%= question.option_a %>
+      <div class="option_a" id="tally_a">
+        <%= question.option_a %>
+        <%= render 'selections/form', question: question, choice: 'option_a' %>
+      </div>
     </div>
     <div class="col-md-2">
       <p><strong>OR</strong></p>
     </div>
     <div class="col-md-5">
-      <%= question.option_b %>
+      <div class="option_b" id="tally_b">
+        <%= question.option_b %>
+        <%= render 'selections/form', question: question, choice: 'option_b' %>
+      </div>
     </div>
   </div>
   <div class="row">
