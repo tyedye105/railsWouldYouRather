@@ -5,6 +5,6 @@ describe "delete question process" do
     question = FactoryGirl.create(:question)
     visit ('/')
     click_on "Delete"
-    expect(page).to have_content("empty website")
+    expect(page).to have_no_content("pizza forever")
   end
 end
