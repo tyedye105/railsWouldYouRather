@@ -6,7 +6,10 @@ describe Question do
   it {should validate_presence_of :option_a}
   it {should validate_presence_of :option_b}
 
+
 end
+
+
 
 describe '#add_one' do
   it 'will add one to tally property' do

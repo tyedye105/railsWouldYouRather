@@ -39,14 +39,13 @@
     </div>
   </div>
   <div class="row">
-
   <p id="description">
     <strong>Description:</strong> <%= question.description %>
   </p>
   </div>
 </div>
 <%= link_to "Edit", edit_question_path(question), id: "edit_link", remote: true %> |
-<%= link_to "Delete", question_path(question), method: :delete, data: {confirm: "Are you sure?"}, remote: true %>
+<%= link_to "Delete", question_path(question), :data => {:confirm => "Are you sure you want to remove this question?", :method => "delete"}, remote: true %>
 </div>
 <% end %>
 <% end %>
